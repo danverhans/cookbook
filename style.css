@@ -1,0 +1,241 @@
+.gallery-image img {
+    width: 100%;
+}
+
+
+.picture {
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header hr {
+    border-width: 2px;
+    width: 60%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    font-family:  "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000000;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+    
+header h2 {   
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #000000;
+    text-transform: uppercase; 
+}
+
+header .logo {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    text-align: center; /*IE*/
+    width: fit-content; 
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 16px 16px;
+}
+
+header nav ul li a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #172029;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.about-us {
+    display: table;
+    height: 100%;
+    padding: 10%;
+}
+
+.about-us div {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    padding-left: 0%;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;}
+
+footer {
+
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: #c3c4c5;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+footer ul {
+
+    width: fit-content;
+    float: left;
+    padding-left: 0px;
+    
+}
+    
+footer ul li {
+    
+    display: block;
+    padding: 0 0 10px 0;
+    
+}
+    
+footer ul li a {
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.footer-sm {
+
+    width: 32px;
+    float: right;
+    
+}
+    
+.footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.about-us.p {
+    text-align: left;
+    margin: auto;
+    padding: 10%;
+}
+
+.container img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 0.5px solid grey;
+}
+
+.gallery-image {
+
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    -webkit-flex-basis: 300px;
+    -moz-flex-basis: 300px;
+    flex-basis: 300px;
+} 
+    
+.post-header {       
+    
+    /*kujundus*/
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 9px #111111;
+    
+    /*positsioneerimine*/
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.gallery-links {
+
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+    -o-flex-flow: row wrap;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 950px) {   
+
+    header .header-banner {
+    
+          height: calc(100vh - 400px);
+    
+    }   
+    
+    header h1 a {
+    
+          font-size: 80px;
+    
+    }  
+    
+    header h2 {
+    
+          font-size: 24px;
+          margin-top: 20px;
+    
+    }
+    
+    header nav ul li {
+    
+           padding: 16px 42px;
+    
+    }
+    
+}
+@media only screen and (max-width: 950px) {
+    .about-us {
+        display: inline-block;
+    }
+    .about-us .picture {
+        display: none;
+    }
+    .about-us.p {
+        position: relative;
+        text-align: center;
+    }
+    
+}
+
+    
